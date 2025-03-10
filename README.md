@@ -1,17 +1,13 @@
-Ecosystem Simulation Game (C++)
+Developed a terminal-based ecosystem simulation game in C++ where animals compete to reach "Heaven" while managing energy, breeding, and survival. Key features include:
 
-Developed a terminal-based game where animals compete for survival using pathfinding (A* algorithm), energy management, and dynamic interactions (breeding, combat).
+Pathfinding & AI: Implemented the A* algorithm for intelligent animal navigation around obstacles (walls, other animals) toward objectives (food, Heaven).
 
-Features: Procedural map generation, save/load functionality, console UI with color-coded elements.
+Game Mechanics: Designed systems for combat, breeding, energy management, and dynamic interactions (helping allies, attacking rivals).
 
-Technologies: C++, File I/O, Algorithm Design (A*), Modular Architecture.
+User Interaction: Created a console-based UI with color-coded maps, real-time stats, and user input handling for movement/actions.
 
-Multiplayer Word Game (JavaFX)
+Persistence: Added save/load functionality and playback logging (HumanLog.txt, PlayBack.txt) to track game states and events.
 
-Built a real-time, turn-based multiplayer game with category/letter selection, scoring, and Persian alphabet support.
+Procedural Content: Generated randomized maps with configurable entities (food, blocks, animals) for varied gameplay.
 
-Features: Client-server networking, configurable timers, save/resume functionality, JavaFX UI.
-
-Technologies: Java, JavaFX, Socket Programming, Event-Driven Design.
-
-Highlight: Demonstrated full-stack proficiency in game logic, UI/UX, and networking, emphasizing problem-solving and user-centric design.
+Technologies: C++, File I/O, Algorithm Design (A*), Modular Architecture (multi-header structure), Linux/Windows compatibility.
